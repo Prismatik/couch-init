@@ -1,0 +1,35 @@
+{
+  "name": "couch-creator",
+  "version": "1.0.0",
+  "description": "A utility for ensuring couch databases are created",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "lodash": "^3.10.1",
+    "nano": "^6.1.5",
+    "promisify-node": "^0.1.5",
+    "random-string": "^0.1.2"
+  },
+  "devDependencies": {
+    "mocha": "^1.21.5",
+    "mocha-as-promised": "^2.0.0"
+  },
+  "scripts": {
+    "test": "mocha --harmony -R spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Prismatik/couch-init.git"
+  },
+  "keywords": [
+    "couchdb"
+  ],
+  "author": "nathan@prismatik.com.au",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Prismatik/couch-init/issues"
+  },
+  "homepage": "https://github.com/Prismatik/couch-init"
+}
