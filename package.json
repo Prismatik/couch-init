@@ -1,6 +1,6 @@
 {
   "name": "couch-creator",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "A utility for ensuring couch databases are created",
   "main": "index.js",
   "directories": {
