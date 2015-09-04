@@ -24,11 +24,12 @@ var Coucher = function(url) {
 
 Coucher.prototype.start = (couches) => {
   var createAll = this.createAll;
-  return new Promise((resolve) => {
+  return new Promise((resolve, reject) => {
     createAll(couches)
       .then(resolve)
       .catch((e) => {
         if (e.error == 'file_exists') return resolve([SUCCESS]);
+        reject(e);
       });
   });
 };
