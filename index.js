@@ -22,7 +22,7 @@ var Coucher = function(url) {
   return this;
 };
 
-Coucher.prototype.start = (couches) => {
+Coucher.prototype.start = function(couches) {
   var createAll = this.createAll;
   return new Promise((resolve, reject) => {
     createAll(couches)
